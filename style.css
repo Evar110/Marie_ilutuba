@@ -120,9 +120,10 @@ h1 {
 .kaart {
     max-width: 600px;
     margin: auto;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    border: 1px solid black;
+    border-radius: 0px;
     overflow: hidden;
+    position: relative;
 }
 
 .kaart iframe {
@@ -133,7 +134,13 @@ h1 {
 
 .andmed {
     text-align: center;
-    font-family: 'Comic Sans MS', cursive;
-    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-size: 30px;
     margin-top: 20px;
+}
+
+.teenused {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
