@@ -1,0 +1,139 @@
+body {
+    background-image: url(Tapeet.jpg);
+    background-repeat: repeat;
+    background-size: 10%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sisu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.vasak-tulp {
+    width: 50%;
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 75px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lingid {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.lingid a {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: #83a5c0;
+}
+
+.galerii {
+    border: 1px solid black;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.pildid {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.pildid img {
+    width: 100%;
+    display: none;
+}
+
+.pildid img.active {
+    display: block;
+}
+
+.eelnev, .järgmine {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.eelnev {
+    left: 10px;
+}
+
+.järgmine {
+    right: 10px;
+}
+
+.parem-tulp {
+    width: 45%;
+    text-align: center;
+}
+
+.sotsiaal-lingid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ikoon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+
+}
+
+.ikoon:hover {
+    transform: scale(1.5);
+}
+
+.kaart {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.kaart iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.andmed {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 20px;
+    margin-top: 20px;
+}
